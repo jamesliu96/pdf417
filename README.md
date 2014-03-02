@@ -10,14 +10,46 @@ Use the code
 ------
 
 - `pdf417.js` (main library with _libbcmath_)
-- `canvas.js` (code array to canvas display script)
+- `demo.js` (code array to canvas display demo script)
 
 Usage
 ------
 
 Insert `pdf417.js` first, then call `PDF417.init("some code here")`.
 
-You may use `canvas.js` to simply display the result array using the HTML5 `<canvas>`
+Calling `PDF417.getBarcodeArray()` will get a return object like:
+
+```JSON
+{
+    num_rows: 120,
+    num_cols: 226,
+    bcode: [
+        [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            ...
+        ],
+        [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            ...
+        ],
+        ...
+    ]
+}
+```
+
+Easy to draw a code using canvas.
+
+Demo code is in `demo.js`.
 
 License
 ------
