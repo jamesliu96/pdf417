@@ -51,6 +51,8 @@ Easy to draw a code using canvas.
 
 Demo code is in `demo.js`.
 
+[DEMO PAGE](http://g.jamesliu.info/pdf417)
+
 License
 ------
 
