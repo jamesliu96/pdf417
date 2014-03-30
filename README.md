@@ -56,7 +56,7 @@ Demo code is in `demo.js`.
 License
 ------
 
-The MIT License (MIT)
+[The MIT License](http://james.mit-license.org/) (MIT)
 
 Copyright (c) 2014 James Liu
 
